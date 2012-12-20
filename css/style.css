@@ -1,0 +1,88 @@
+@import url('../fonts/stylesheet.css');
+
+.pricing_table{ border:1px solid #c4cbcc;
+                border-radius:4px;
+                -moz-border-radius:4px;
+                -webkit-border-radius:4px;
+                outline:7px solid #f2f2f2;
+                float:left;
+}
+
+.pricing_table ul {
+    list-style:none;
+    float:left;
+    width:147px;
+    margin:0px;
+    border:1px solid #f2f3f3;
+    padding:5px;
+    text-align:center;
+    background-color:#fff;
+}
+
+.pricing_table ul li {
+    border-bottom:1px dashed #cfd2d2;
+    padding:10px 0px;
+    
+}
+
+.pricing_table ul:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform:scal(1.1);
+    
+    -moz-box-shadow: 3px 5px 7px rgba(0,0,0,.7);
+    
+    cursor:pointer;
+}
+
+
+.pricing_table ul li {
+    border-bottom:1px dashed #cfd2d2;
+    padding:10px 0px;
+}
+
+.pricing_table ul li:first-child{
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'TitanOneRegular';
+}
+
+.pricing_table ul li:nth-child(2){
+    background:#fbfbfb;
+}
+
+.pricing_table ul li:nth-child(3){
+    font-size:12px;
+    font-weight:bold;
+}
+
+.pricing_table ul li:nth-child(n+4) {
+    font-size:14px;
+}
+
+.pricing_table ul li:last-child a{ 
+    
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-boder-radius:10px;
+    
+    border:1px solid #c4cbcc;
+    padding:10px;
+    margin:5px 0px;
+    
+    background:#e5e696;
+    
+    background: #b3dced; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3dced), color-stop(50%,#29b8e5), color-stop(100%,#bce0ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+    
+    color:#fff;
+    font-style:italic;
+    display:block;
+}
